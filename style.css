@@ -89,6 +89,20 @@ body {
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.project-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
 /* Contact */
 form {
   display: flex;
