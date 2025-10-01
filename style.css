@@ -199,7 +199,7 @@ body {
   flex-wrap: wrap;
 }
 
-.linkedin-link {
+.linkedin-link, .gmail-link, .github-link {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -209,11 +209,32 @@ body {
   border-radius: 8px;
   font-weight: 500;
   transition: background 0.2s, transform 0.2s;
+}
+
+.linkedin-link {
   background: #0077b5;
 }
 
 .linkedin-link:hover {
   background: #005885;
+  transform: translateY(-2px);
+}
+
+.gmail-link {
+  background: #ea4335;
+}
+
+.gmail-link:hover {
+  background: #d33b2c;
+  transform: translateY(-2px);
+}
+
+.github-link {
+  background: #333333;
+}
+
+.github-link:hover {
+  background: #24292e;
   transform: translateY(-2px);
 }
 
