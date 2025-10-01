@@ -65,6 +65,10 @@ body {
   text-align: center;
 }
 
+#about p {
+  text-align: center;
+}
+
 /* Projects */
 .projects-grid {
   display: grid;
