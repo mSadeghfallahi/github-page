@@ -199,7 +199,7 @@ body {
   flex-wrap: wrap;
 }
 
-.linkedin-link, .x-link {
+.linkedin-link {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -209,23 +209,11 @@ body {
   border-radius: 8px;
   font-weight: 500;
   transition: background 0.2s, transform 0.2s;
-}
-
-.linkedin-link {
   background: #0077b5;
 }
 
 .linkedin-link:hover {
   background: #005885;
-  transform: translateY(-2px);
-}
-
-.x-link {
-  background: #1da1f2;
-}
-
-.x-link:hover {
-  background: #0d8bd9;
   transform: translateY(-2px);
 }
 
